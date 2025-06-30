@@ -16,9 +16,9 @@
   cd blood-analyser
 
 
-2.  install dependencies:
-```
+2.  Install dependencies:
 
+```
  pip install -r requirements.txt
  
 
