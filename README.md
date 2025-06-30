@@ -15,30 +15,31 @@
 git clone https://github.com/your-username/blood-analyser.git
 cd blood-analyser
 
+
 2.  install dependencies:
 ```
-pip install -r requirements.txt
+ pip install -r requirements.txt
 
 
 3. Set environment variables in .env:
 
-   OPENAI_API_KEY=your-key
-   SERPER_API_KEY=your-key
+    OPENAI_API_KEY=your-key
+    SERPER_API_KEY=your-key
 
 4. Run the server:
-   uvicorn main:app --reload
+    uvicorn main:app --reload
 
 
 🔍 API Usage:
 
-Endpoint: /analyze
-Method: POST
+ Endpoint: /analyze
+ Method: POST
 
-Form Data:
+ Form Data:
 
-file: PDF file of blood report
+ file: PDF file of blood report
 
-query: Optional query for insights
+ query: Optional query for insights
 
 
 Returns  :
