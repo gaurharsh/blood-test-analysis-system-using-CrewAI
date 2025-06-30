@@ -19,11 +19,11 @@
 2.  Install dependencies:
 
 ```
- pip install -r requirements.txt
+   pip install -r requirements.txt
  
 
 
-3. Set environment variables in .env:
+3.  Set environment variables in .env:
    ```
 
     OPENAI_API_KEY=your-key
@@ -31,7 +31,7 @@
 
 5. Run the server:
    ```
-    uvicorn main:app --reload
+    uvicorn main: app-- reload
 
 
 🔍 API Usage:
