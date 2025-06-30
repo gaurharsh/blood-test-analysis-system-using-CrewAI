@@ -11,13 +11,14 @@
 ## 🛠️ Setup Instructions
 
 1. Clone the repo:
-```
-git clone https://github.com/your-username/blood-analyser.git
-cd blood-analyser
+ ```
+  git clone https://github.com/your-username/blood-analyser.git
+  cd blood-analyser
 
 
 2.  install dependencies:
 ```
+
  pip install -r requirements.txt
  
 
